@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod tests {
     use expand::expand;
-    use byte_u8_macro::bu8;
+    use byte_match::bu8;
     #[test]
     fn it_works() {
         let strr = String::from("jojo2");

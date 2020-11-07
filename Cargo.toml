@@ -1,5 +1,5 @@
 [package]
-name = "byte_u8_macro"
+name = "byte-match"
 version = "0.1.0"
 authors = ["hk <alexhaka10@protonmail.com>"]
 edition = "2018"
@@ -9,5 +9,5 @@ edition = "2018"
 [lib]
 proc-macro = true
 
-[dependencies]
+[dev-dependencies]
 expand = "0.1.3"
